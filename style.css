@@ -1,0 +1,18 @@
+.navbar{
+    color: white;
+    background: black;
+}
+
+.navbar-brand img{
+    width: 40px;
+    height: 40px;
+}
+#navbarColapse{
+    margin-left: 500px;
+}
+#shift{
+    margin-left: 10px;
+}
+.nav-item{
+    color: white;
+}
