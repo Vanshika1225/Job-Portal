@@ -1,18 +1,55 @@
-.navbar{
+.navbar {
     color: white;
     background: black;
 }
 
-.navbar-brand img{
+.navbar-brand img {
     width: 40px;
     height: 40px;
 }
-#navbarColapse{
+
+#navbarColapse {
     margin-left: 500px;
 }
-#shift{
+
+#shift {
     margin-left: 10px;
 }
-.nav-item{
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    color: rgb(255, 255, 255);
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+    color: rgb(228, 220, 220);
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu .dropdown-item {
     color: white;
+    background: black;
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+    background: black;
+}
+
+.btn:hover {
+    background-color: black;
+    color: white;
+}
+
+.but {
+    display: flex;
+    flex-direction: row;
+    margin-left: 280px;
+}
+
+@media (max-width:1024px) {
+    .but {
+        margin-left: 117px;
+    }
+
+    ul {
+        margin-left: -361px;
+    }
 }
