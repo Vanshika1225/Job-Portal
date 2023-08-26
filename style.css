@@ -1,68 +1,78 @@
 .navbar {
     color: white;
     background: black;
-    height: 70px;
 }
-
 .navbar-brand img {
-    width: 60px;
-    height: 70px;
-    margin-left: 300px;
+    width: 82px;
+    height: 57px;
 }
-
 #navbarColapse {
-    margin-left: 500px;
+    margin-left: 120px;
 }
-
 #shift {
     margin-left: 10px;
 }
-
-.navbar-expand-lg .navbar-nav .nav-link {
-    color: rgb(248, 248, 248);
+.mx{
+    margin-left: 200px;
 }
-
+.navbar-expand-lg .navbar-nav .nav-link {
+    color: rgb(243, 240, 240);
+}
 .navbar-expand-lg .navbar-nav .nav-link:hover {
     color: rgb(228, 220, 220);
 }
-
 .navbar-expand-lg .navbar-nav .dropdown-menu .dropdown-item {
     color: white;
     background: black;
 }
-
 .navbar-expand-lg .navbar-nav .dropdown-menu {
     background: black;
 }
-
 .btn:hover {
     background-color: black;
     color: white;
 }
-
 .but {
     display: flex;
     flex-direction: row;
-    margin-left: 260px;
-}
-.image{
-    opacity: 0.7;
-    height: 700px;
+    margin-left: 280px;
 }
 @media (max-width:1024px) {
     .but {
-        margin-left: 107px;
+        margin-left: 65px;
     }
-
     ul {
         margin-left: -361px;
+    }
+    #navbarColapse {
+        margin-left: 66px;
+    }
+    .navbar-brand{
+        margin-left: -110px;
+    }
+}
+.search{
+    margin-top: 51px;height: 86px;padding: 27px;
+}
+@media (max-width:768px){
+    .abouts{
+        width: 156px;
+        height: 69px;
+        margin-left: -189px;
+    }
+}
+@media (max-width:425)
+{
+    .search{
+        margin-top: 201px;
+        height: 224px;
     }
 }
 :root {
     --primary: #00B074;
     --secondary: #2B9BFF;
     --light: #EFFDF5;
-    --dark: #2B3940;
+    --dark: black;
 }
 
 .back-to-top {
@@ -109,39 +119,6 @@
     justify-content: center;
     font-weight: normal;
     border-radius: 2px;
-}
-
-@media (max-width: 991.98px) {
-    .navbar-dark .navbar-nav .nav-link,
-    .navbar-light .navbar-nav .nav-link  {
-        margin-right: 0;
-        padding: 10px 0;
-    }
-
-    .navbar-light .navbar-nav {
-        border-top: 1px solid #EEEEEE;
-    }
-}
-
-@media (min-width: 992px) {
-    .navbar .nav-item .dropdown-menu {
-        display: block;
-        top: 100%;
-        margin-top: 0;
-        transform: rotateX(-75deg);
-        transform-origin: 0% 0%;
-        opacity: 0;
-        visibility: hidden;
-        transition: .5s;
-        
-    }
-
-    .navbar .nav-item:hover .dropdown-menu {
-        transform: rotateX(0deg);
-        visibility: visible;
-        transition: .5s;
-        opacity: 1;
-    }
 }
 
 
@@ -273,7 +250,7 @@
 }
 /*** Job Listing ***/
 .nav-pills .nav-item .active {
-    border-bottom: 2px solid var(--primary);
+    border-bottom: 2px solid var(--secondary);
 }
 
 .job-item {
@@ -394,4 +371,7 @@
     margin-right: 0;
     padding-right: 0;
     border-right: none;
+}
+.g-5{
+    margin-left: 180px;
 }
